@@ -83,20 +83,20 @@ btn6.addEventListener('click', function () {
 
 
 
-let i = 0,
-    text;
-text = 'Hi, I am Md. Samsuzzoha Shayon';
+// let i = 0,
+//     text;
+// text = 'Hi, I am Md. Samsuzzoha Shayon';
 
 
 
-function typing() {
+// function typing() {
 
-    if (i < text.length) {
-        document.getElementById('text').innerHTML += text.charAt(i);
-        i++;
-        setTimeout(typing, 50);
+//     if (i < text.length) {
+//         document.getElementById('text').innerHTML += text.charAt(i);
+//         i++;
+//         setTimeout(typing, 50);
 
-    }
+//     }
 
-}
-typing();
+// }
+// typing();

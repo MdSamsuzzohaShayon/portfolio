@@ -20,9 +20,7 @@ body {
     right: 0;
     top: 0;
     height: 100vh;
-    width: 50px;
     background: white;
-
 }
 
 #social ul {
@@ -31,13 +29,15 @@ body {
 }
 
 #social ul li {
+    width: 60px;
+    display: block;
     list-style: none;
     cursor: pointer;
 }
 
-#social ul li:hover {
+/* #social ul li:hover {
     background: rgb(100, 100, 100);
-}
+} */
 
 #social ul li a {
     text-decoration: none;
