@@ -69,34 +69,3 @@ let btn6 = document.querySelector('.contract');
 btn6.addEventListener('click', function () {
     smoothScroll('#contract', 3500);
 });
-
-
-
-
-// var dbgEnabled = Debug.debuggerEnabled;
-// console.log(dbgEnabled);
-
-
-
-
-
-
-
-
-// let i = 0,
-//     text;
-// text = 'Hi, I am Md. Samsuzzoha Shayon';
-
-
-
-// function typing() {
-
-//     if (i < text.length) {
-//         document.getElementById('text').innerHTML += text.charAt(i);
-//         i++;
-//         setTimeout(typing, 50);
-
-//     }
-
-// }
-// typing();
