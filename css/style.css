@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+/* @import url('https://fonts.googleapis.com/css?family=Oranienbaum');
 @import url('https://fonts.googleapis.com/css?family=Tulpen+One');
-@import url('https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i'); */
+    /* font-family: 'Oranienbaum', serif; */
+    /* font-family: 'Tulpen One', cursive; */
+    /* font-family: 'Fanwood Text', serif;  */
 
 * {
     margin: 0;
@@ -9,11 +12,7 @@
 
 body {
     font-size: 1rem;
-    /* font-family: 'Oranienbaum', serif; */
-    /* font-family: 'Tulpen One', cursive; */
-    font-family: 'Fanwood Text', serif;
 }
-
 
 #social {
     position: fixed;
@@ -62,6 +61,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.main-heading{
+    font-size: 0.07rem;
+}
 
 /* .navbar{
     background: rgba(31, 1, 59, 0.507);
@@ -77,6 +79,15 @@ body {
 .navbar-nav .nav-item .nav-link {
     color: white;
 } */
+.start {
+    color: white;
+    background: blue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+
 
 
 
@@ -85,12 +96,17 @@ body {
 
 
 #technologies {
+    color: black;
     width: 100%;
-    background-image: url(../img/light-technology-retro-star-cosmos-spiral-982378-pxhere.com.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+}
+.bar{
+    width: 100%;
+    height: 5px;
+    background: rgb(180, 180, 180);
+}
+.fill{
+    height: 5px;
+    background: rgb(37, 0, 44) !important;
 }
 
 .text-inside {
@@ -129,6 +145,7 @@ iframe {
     #social {
         background: rgba(255, 255, 255, 0.767);
     }
+
     #showcase {
         background-image: url(../img/DSC03093\ -\ Copy\ -\ Copy.jpg);
     }
