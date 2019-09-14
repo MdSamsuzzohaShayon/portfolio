@@ -10,172 +10,26 @@
     padding: 0;
 }
 
-body {
-    font-size: 1rem;
-}
-.grn-txt{
-    color: rgb(37, 129, 0);
-}
 
-#social {
-    color: white !important;
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    background: rgb(37, 129, 0);
-}
 
-#social ul {
-    padding-top: 100px;
+/* COLOR PALLATE */
+/* body {
+    color: rgb(31, 14, 21);
+    color: rgb(22, 0, 37);
+    color: rgb(10, 173, 18);
 
-}
-
-#social ul li {
-    width: 60px;
-    display: block;
-    list-style: none;
-    cursor: pointer;
-}
-
-/* #social ul li:hover {
-    background: rgb(100, 100, 100);
 } */
 
-#social ul li a {
-    text-decoration: none;
+
+
+
+
+/* RESPONSIVENESS FOR DESKTOP*/
+@media(min-width:710px){
+
 }
 
-#social ul li a i {
-    font-size: 3rem;
-    margin: 25px auto;
-}
-#social ul li a i:hover{
-    color: rgb(37, 129, 0);
-}
+/* RESPONSIVENESS FOR MOBILE */
+@media(max-width:710px){
 
-
-
-
-#showcase {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    background-image: url(../img/cpyt.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#showcase nav {
-    background: rgba(37, 129, 0, 0.452);
-    /* background: rgba(0, 20, 56, 0.39) !important; */
-}
-
-.main-heading {
-    font-size: 0.07rem;
-}
-
-
-.start {
-    color: white;
-    background: rgb(37, 129, 0);
-    font-size: 1.5rem;
-    cursor: pointer;
-    border: none;
-}
-
-
-
-
-
-
-
-
-
-#technologies {
-    color: rgb(37, 129, 0);
-    width: 100%;
-}
-
-.bar {
-    width: 100%;
-    height: 5px;
-    background: rgb(142, 255, 97);
-}
-
-.fill {
-    height: 5px;
-    background: rgb(37, 129, 0);
-}
-/* .img-txt{
-    position: relative;
-} */
-
-/* .text-inside {
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-} */
-
-iframe {
-    width: 100%;
-    height: 100%;
-}
-a{
-    color: white;
-}
-.u-btn{
-    color: white !important;
-    background: rgb(37, 129, 0);
-    border: none;
-}
-
-.img-circle {
-    border-radius: 50%;
-}
-
-#name, #email, #message {
-    color: white !important;
-    border: none !important;
-    background: rgb(214, 255, 245);
-}
-.tr-color{
-    color:  rgb(37, 129, 0) !important;
-    background: rgb(209, 253, 216);
-}
-.trt-color{
-    color:  rgb(37, 129, 0) !important;
-    background: rgb(214, 255, 245);
-}
-.send{
-    background: rgb(37, 129, 0);
-}
-.b-top{
-    border-top: 6px solid rgb(37, 129, 0);
-}
-
-#ftr{
-    width: 100%;
-    height: 120px;
-    background: rgb(37, 129, 0);
-    color: white;
-}
-
-
-
-@media(max-width:412px) {
-    #social {
-        display: none;
-    }
-
-    #showcase {
-        height: 70vh;
-        background-position: 80%;
-    }
-
-    #showcase nav {
-        background: none !important;
-    }
 }
