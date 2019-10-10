@@ -1,3 +1,37 @@
+$(function(){
+	$("#watchButton").click(function(){
+		$(".ui.modal").modal('show');
+	});
+	$(".ui.modal").modal({
+		closable: true
+	});
+});
+
+
+$('#pro1').progress();
+$('#pro2').progress();
+$('#pro3').progress();
+$('#pro4').progress();
+$('#pro5').progress();
+$('#pro6').progress();
+$('#pro7').progress();
+$('#pro8').progress();
+$('#pro9').progress();
+$('#pro10').progress();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //SCROLLING TEXT ANIMATION
 
 function smoothScroll(section, duration) {
@@ -94,3 +128,5 @@ btn6.addEventListener('click', function () {
 //         document.getElementById("logo").style.fontSize = "35px";
 //     }
 // }
+
+
