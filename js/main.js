@@ -30,7 +30,7 @@ $('#pro10').progress();
 
 
 
-
+/*
 
 //SCROLLING TEXT ANIMATION
 
@@ -107,7 +107,7 @@ btn6.addEventListener('click', function () {
 
 
 
-
+*/
 
 
 
