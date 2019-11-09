@@ -8,6 +8,10 @@ $(function(){
 });
 
 
+
+
+
+// PROGRESS BAR 
 $('#pro1').progress();
 $('#pro2').progress();
 $('#pro3').progress();
@@ -18,6 +22,19 @@ $('#pro7').progress();
 $('#pro8').progress();
 $('#pro9').progress();
 $('#pro10').progress();
+
+
+
+
+
+
+// TAB FOR RECENT PROJECT
+$('.tabular.menu .item').tab();
+// $('.paths.example .menu .item')
+//   .tab({
+//     context: '.paths.example'
+//   })
+// ;
 
 
 

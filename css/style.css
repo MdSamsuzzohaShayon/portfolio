@@ -36,6 +36,13 @@ body{
 #videoSource{
     /* display: none; */
 }
+#contact{
+    margin: 8% 0;
+}
+#review .content{
+    width: 94%;
+    margin-left: 3%;
+}
 
 
 /* COLOR PALLATE */
@@ -69,5 +76,9 @@ body{
     .wrapper{
         height: 140vh;    
     }
+    #contact{
+        margin: 5% 0;
+    }
+
 
 }
