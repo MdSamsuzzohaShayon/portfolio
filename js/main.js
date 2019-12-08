@@ -40,6 +40,55 @@ $('.tabular.menu .item').tab();
 
 
 
+// NAVIGATION MENU BEGAIN
+const menu = document.getElementById('menu');
+const ul = menu.querySelectorAll('ul');
+const ulid = document.getElementById('ulid');
+const li = menu.querySelectorAll('li');
+const icon = document.getElementById('icon');
+console.log(li);
+
+
+
+if (window.innerWidth <= 768) {
+    icon.addEventListener('click', e => {
+        if(icon.textContent == "MENU"){
+            console.log('menu button is working');
+            ulid.style.display = 'block';
+            icon.textContent = 'CLOSE';
+            stylingElements();
+            isOpen = false;
+        }else{
+            console.log('close button is working');
+            icon.textContent = 'MENU'; 
+            menu.style.height = '72px';
+            ulid.style.display = 'none';
+        }
+    });
+
+
+
+
+
+    function stylingElements() {
+        menu.style.height = '1024px';
+        ul.forEach(element => {
+            element.style.textAlign = 'left';
+            element.style.height = '80%';
+            element.style.fontSize = '1rem';
+            element.style.background = 'white';
+        });
+        li.forEach(element => {
+            element.style.display = 'block';
+            element.style.textAlign = 'left';
+            element.style.margin = '10px 0 0 15px';
+
+        });
+    }
+
+
+}
+// NAVIGATION MENU ENDS
 
 
 
@@ -47,9 +96,11 @@ $('.tabular.menu .item').tab();
 
 
 
-/*
 
-//SCROLLING TEXT ANIMATION
+
+
+
+//SCROLLING TEXT ANIMATION BEGAIN
 
 function smoothScroll(section, duration) {
     let target = document.querySelector(section);
@@ -92,39 +143,68 @@ btn1.addEventListener('click', function () {
     smoothScroll('.technologies', 1000);
 });
 
-let btnStart = document.querySelector('.start');
-btnStart.addEventListener('click', function () {
-    smoothScroll('.technologies', 1000);
-});
-let btn2 = document.querySelector('.portfolio');
+// let btnStart = document.querySelector('.start');
+// btnStart.addEventListener('click', function () {
+//     smoothScroll('.technologies', 1000);
+// });
+let btn2 = document.querySelector('.project');
 btn2.addEventListener('click', function () {
-    smoothScroll('.portfolios', 2000);
+    smoothScroll('.projects', 2000);
 });
 
 
-let btn3 = document.querySelector('.service');
+let btn3 = document.querySelector('.utube');
 btn3.addEventListener('click', function () {
-    smoothScroll('.services', 2500);
+    smoothScroll('.youtube', 2500);
 });
 
 
-let btn4 = document.querySelector('.youtube');
+let btn4 = document.querySelector('.about');
 btn4.addEventListener('click', function () {
-    smoothScroll('#youtube', 3000);
+    smoothScroll('#about', 3000);
 });
-let btn5 = document.querySelector('.about');
+let btn5 = document.querySelector('.contact');
 btn5.addEventListener('click', function () {
-    smoothScroll('#about', 3300);
+    smoothScroll('#contact', 3300);
 });
-let btn6 = document.querySelector('.contract');
+let btn6 = document.querySelector('.review');
 btn6.addEventListener('click', function () {
-    smoothScroll('#contract', 3500);
+    smoothScroll('#review', 3500);
 });
+//SCROLLING TEXT ANIMATION ENDS
 
 
 
 
+
+/*
+// STICKY ANIMATED NAVBAR BEGAIN
+const sticky = document.querySelector('.sticky');
+
+if(window.innerWidth >= 1024){
+    if (sticky.style.position !== 'sticky') {
+        let stickyTop = sticky.offsetTop;
+      
+        document.addEventListener('scroll', function () {
+          window.scrollY >= stickyTop ?
+            sticky.classList.add('fixed') :
+            sticky.classList.remove('fixed');
+        });
+      }
+}else{
+    console.log("Window inner width: "+ window.innerWidth);
+}
+
+
+// STICKY ANIMATED NAVBAR ENDS
 */
+
+
+
+
+
+
+
 
 
 
